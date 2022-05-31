@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'DMSans-Regular';
+  src: url('../fonts/DMSans-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/DMSans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/DMSans-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/DMSans-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/DMSans-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'DMSans-Medium';
+  src: url('../fonts/DMSans-Medium.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/DMSans-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/DMSans-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/DMSans-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/DMSans-Medium.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
