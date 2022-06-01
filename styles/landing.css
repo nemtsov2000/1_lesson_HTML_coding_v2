@@ -25,6 +25,7 @@
   font-size: 20px;
   line-height: 30px;
   color: #696871;
+  margin: 30px 0 50px;
 }
 
 .main-landing__actions {
@@ -93,10 +94,24 @@
   line-height: 57px;
 }
 
-.main-subscription__text {
+.main-subscription__text, .main-metrics__text {
   font-size: 20px;
   line-height: 30px;
   color: #696871;
+  margin: 30px 0;
+}
+
+.main-subscription__link, .main-metrics_link {
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: -0.531474px;
+  text-decoration: none;
+  color: #5454D4;
+  font-weight: 700;
+}
+
+.main-subscription__link:hover, .main-metrics_link:hover {
+  text-decoration: underline;
 }
 
 .main-metrics {
@@ -118,12 +133,6 @@
 .main-metrics__title {
   font-size: 50px;
   line-height: 57px;
-}
-
-.main-metrics__text {
-  font-size: 20px;
-  line-height: 30px;
-  color: #696871;
 }
 
 .main-icons {
