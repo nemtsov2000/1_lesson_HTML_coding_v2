@@ -1,0 +1,261 @@
+
+.main-landing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 74px;
+  margin-top: 100px;
+}
+
+.main-landing__title {
+  margin-bottom: 30px;
+  font-size: 80px;
+  line-height: 77px;
+}
+
+.main-landing__img {
+  width: 580px;
+}
+
+.main-landing__wrapper {
+  max-width: 460px;
+}
+
+.main-landing__text {
+  font-size: 20px;
+  line-height: 30px;
+  color: #696871;
+  margin: 30px 0 50px;
+}
+
+.main-landing__actions {
+  display: flex;
+}
+
+.main-landing__button {
+  background: #5454d4;
+  border-radius: 10px;
+  width: 211px;
+  height: 60px;
+  font-family: DMSans-Medium, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: -0.531474px;
+  color: #fff;
+  border: none;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.main-landing__button:hover {
+  background: #4949b8;
+}
+
+.main-partners {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 142px;
+  margin-top: 100px;
+}
+
+.main-landing__circle-button {
+  background: #fff;
+  border-radius: 60px;
+  width: 60px;
+  height: 60px;
+  color: #fff;
+  border: 1px solid #e7e7e7;
+  cursor: pointer;
+}
+
+.main-landing__circle-button:hover {
+  background: #dcdcdc;
+}
+
+.main-subscription {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+  gap: 150px;
+}
+
+.main-subscription__img {
+  width: 348px;
+}
+
+.main-subscription__wrapper {
+  max-width: 460px;
+}
+
+.main-subscription__title {
+  font-size: 50px;
+  line-height: 57px;
+}
+
+.main-subscription__text, .main-metrics__text {
+  font-size: 20px;
+  line-height: 30px;
+  color: #696871;
+  margin: 30px 0;
+}
+
+.main-subscription__link, .main-metrics_link {
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: -0.531474px;
+  text-decoration: none;
+  color: #5454D4;
+  font-weight: 700;
+}
+
+.main-subscription__link:hover, .main-metrics_link:hover {
+  text-decoration: underline;
+}
+
+.main-metrics {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 142px;
+  margin-top: 100px;
+}
+
+.main-metrics__img {
+  width: 330px;
+}
+
+.main-metrics__wrapper {
+  max-width: 460px;
+}
+
+.main-metrics__title {
+  font-size: 50px;
+  line-height: 57px;
+}
+
+.main-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+  text-align: center;
+  gap: 25px;
+}
+
+.main-icon__img {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 7px 0 30px;
+}
+
+.main-icon {
+  max-width: 308px;
+}
+
+.main-icon__title {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.main-icon__text {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  color: #696871;
+}
+
+@media screen and (max-width: 1200px) {
+  .main-landing {
+    gap: 30px;
+  }
+
+  .main-landing__img {
+    width: 40%;
+  }
+
+  .main-metrics__img {
+    width: 30%;
+  }
+
+  .main-landing__title {
+    margin-bottom: 30px;
+    font-size: 40px;
+    line-height: 47px;
+  }
+
+  .main-partners {
+    gap: 0;
+  }
+
+  .main-subscription {
+    gap: 30px;
+  }
+
+  .main-subscription__img {
+    width: 40%;
+  }
+
+  .main-subscription__title {
+    margin-bottom: 30px;
+    font-size: 40px;
+    line-height: 47px;
+  }
+
+  .main-metrics {
+    gap: 30px;
+  }
+
+  .main-metrics__title {
+    margin-bottom: 30px;
+    font-size: 40px;
+    line-height: 47px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main-landing, .main-metrics, .main-icons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-landing__img {
+    width: 60%;
+  }
+
+  .main-metrics__img {
+    width: 50%;
+  }
+
+  .main-partners {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .main-subscription {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-landing, .main-partners, .main-subscription, .main-metrics, .main-icons {
+    margin-top: 80px;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .main-landing__img {
+    min-width: 200px;
+    width: 100%;
+  }
+
+  .main-metrics__img, .main-subscription__img {
+    width: 80%;
+  }
+
+  .main-landing, .main-partners, .main-subscription, .main-metrics, .main-icons {
+    margin-top: 50px;
+  }
+
+}
