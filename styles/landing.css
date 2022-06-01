@@ -27,6 +27,10 @@
   color: #696871;
 }
 
+.main-landing__actions {
+  display: flex;
+}
+
 .main-landing__button {
   background: #5454d4;
   border-radius: 10px;
@@ -39,6 +43,11 @@
   color: #fff;
   border: none;
   margin-right: 40px;
+  cursor: pointer;
+}
+
+.main-landing__button:hover {
+  background: #4949b8;
 }
 
 .main-partners {
@@ -49,17 +58,17 @@
   margin-top: 100px;
 }
 
-.main-landing-circle_button {
+.main-landing__circle-button {
   background: #fff;
   border-radius: 60px;
   width: 60px;
   height: 60px;
   color: #fff;
   border: 1px solid #e7e7e7;
-  margin-top: 2px;
+  cursor: pointer;
 }
 
-.main-landing-circle_button:hover {
+.main-landing__circle-button:hover {
   background: #dcdcdc;
 }
 
@@ -124,6 +133,7 @@
   align-items: center;
   margin-top: 150px;
   text-align: center;
+  gap: 25px;
 }
 
 .main-icon__img {
@@ -136,7 +146,7 @@
   max-width: 308px;
 }
 
-.main-icon__titel {
+.main-icon__title {
   font-size: 24px;
   line-height: 36px;
 }
